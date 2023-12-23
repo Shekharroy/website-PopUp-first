@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POP-UP</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=Poppins&family=Prata&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#offerModal">
+        Pop Up Model
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="offerModal" tabindex="-1" aria-labelledby="offerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end align-items-end">
+                    <button type="button" class="btn-close d-flex justify-content-end align-items-end"
+                        data-bs-dismiss="modal" aria-label="Close" style="color: #E9E9E9;"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="pop_up_grid_container">
+                        <div class="left-border"></div>
+                        <div class="get-style-text">Get Your Style On</div>
+                        <div class="andclass">&</div>
+                        <div class="twenty">20</div>
+                        <div class="percent_off">
+                            <p class="percentage-symbol">%</p>
+                            <p class="off">OFF</p>
+                        </div>
+
+                        <div class="ttPP">
+                            <div class="t20">20</div>
+                            <div class="percent_off2">
+                                <p class="percentage-symbol2">%</p>
+                                <p class="off2">OFF</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="flexcontainer">
+                        <form action="" class="classForm">
+                            <div class="emailBox">
+                                <label for="emailId" class="lableEmail">Email Addrees</label>
+                                <input type="email" id="emailId" class="classEmail" required />
+                            </div>
+                            <div class="btnClass">
+                                <button type="submit">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
